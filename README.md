@@ -1,5 +1,4 @@
 # content-first
-Web Authoring project 2 
 
 ## Responsive Web Design Haiku
   
