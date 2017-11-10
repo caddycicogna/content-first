@@ -93,19 +93,80 @@ hr {
   }
   
   
+  /* --- characters --- */
+  #characters p {
+  text-align: center;
+  }
   
   
+  
+  /* --- styles-weights --- */
+  
+  
+  
+  
+  
+  /* --- try-me --- */
+  
+  
+  
+  
+  
+  
+  /* --- usage --- */
+  
+  
+  
+  
+  
+  
+  
+  /* --- designer --- */
+  
+  
+  
+  
+  
+  
+  
+  /* --- resources --- */
   
 #resources {
+  text-align: center;
   font-size: .5em;
   } 
   
+#resources a {
+  color: #F63;
+  
+  }
+  
+#resources a:hover {
+  color: #900;
+  }
   
   
   
   
+    /* --- BELOW TYPEWRITER --- */
   
+figcaption {
+  text-align: center;
+  color: #FFF;
+  }
   
+figcaption a {
+  color: #FFF;
+  }
+  
+a {
+  text-align: center;
+  color: #FFF;
+  }
+  
+#contentinfo {
+  text-align: center;
+  }
   
     /* --- breakpoints / layout changes / for wider screens --- */
   
