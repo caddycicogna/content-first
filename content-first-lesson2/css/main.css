@@ -1,0 +1,195 @@
+html {
+  font: 100%/1.15 sans-serif;
+  -ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%; 
+  }
+  
+
+body {
+  font-family: courier, sans-serif;
+  color: #333;
+  background-color: #6CF;
+  margin: 6%;
+  }
+  
+  
+  
+  /* --- header --- */
+  
+body header {
+  text-align: center;
+  background-color:#FFF;
+  padding: 1em;
+  }
+  
+header h1 {
+    font-size: 3em;
+  }
+   
+header a {
+  color: #F63;
+  text-decoration: none;
+  }
+  
+header a:hover {
+  color: #900;
+  }
+  
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+/* --- navigation --- */
+
+nav ul {
+  text-align: center;
+  background-color:#FFF;
+  padding: 1em;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  }
+  
+  
+nav a {
+  color: #F63;
+  
+  }
+  
+nav a:hover {
+  color: #900;
+  }
+  
+  /* --- ALL SECTIONS --- */
+  
+section {
+  background-color:#FFF;
+  padding: 2em;
+  }
+h2 {
+  text-align: center;
+  }
+  
+hr {
+  margin-left: -2em;
+  margin-right: -2em;
+  border-top: 1px dashed #444444;
+  background: none;
+  height:0;  
+}
+  
+  /* --- about --- */
+
+#whowhat {
+  text-align: center;
+  }
+  
+  
+  /* --- characters --- */
+  #characters p {
+  text-align: center;
+  }
+  
+  
+  
+  /* --- styles-weights --- */
+  
+  
+#stylename {
+  text-decoration: underline;
+  }
+  
+  
+  /* --- try-me --- */
+  
+  
+  
+  
+  
+ 
+  
+  
+  /* --- designer --- */
+  
+  
+  
+  
+  
+  
+  
+  /* --- resources --- */
+  
+#resources {
+  text-align: center;
+  font-size: .5em;
+  } 
+  
+#resources a {
+  color: #F63;
+  
+  }
+  
+#resources a:hover {
+  color: #900;
+  }
+  
+  
+  
+  
+    /* --- BELOW TYPEWRITER --- */
+  
+figcaption {
+  text-align: center;
+  color: #FFF;
+  }
+  
+figcaption a {
+  color: #FFF;
+  }
+  
+a {
+  text-align: center;
+  color: #FFF;
+  }
+  
+#contentinfo {
+  text-align: center;
+  }
+  
+    /* --- breakpoints / layout changes / for wider screens --- */
+  
+@media (min-width: 48em) {
+
+nav ul {
+ /* text-align: center; */
+  }
+
+nav li {
+  display: inline;
+  margin-left: .5em;
+  }
+  
+nav li:first-child {
+  margin-left:0;
+  }
+  
+
+}
+
+
+
+figure {
+margin-left: -7.3%;
+margin-right: -7%;
+margin-top: 0;
+}
